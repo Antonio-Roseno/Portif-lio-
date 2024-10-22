@@ -1,0 +1,97 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    
+}
+/* estilo do Cabeçalho*/
+
+header{
+    padding: 40px 4%;
+
+
+}
+
+header >.interface{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+.img {
+    border-radius: 10%;
+    width: 120px;
+    height: 120px;
+}
+
+header a {
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+header nav ul{
+    list-style-type: none;
+
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+ header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+  background-color: #00ff08ad;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+header a:hover{
+    color: #0e0000;
+    background-color: aliceblue;
+    padding: 0 10px ;
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+header .btn-contato button:hover{
+    box-shadow: 2px 2px 2px  #70ff74;
+  
+
+
+}
+
+section.hero{
+    padding: 40px 4%;
+
+}
+
